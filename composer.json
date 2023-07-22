@@ -1,0 +1,8 @@
+{
+    "name":"acesso/arquivos",
+        "autoload":{
+            "prs-4":{
+                "acesso\\":"acesso/"
+            }
+        }
+}

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Document</title>
+</head>
+<body>  
+    <div id="resposta">
+        <form>
+            
+            <br>
+            <label for="NomeArquivo">Qual o nome do Arquivo?
+                <br>
+                <input type="text" id="NomeArquivo" size="30" name="Arquivo">
+                <br>
+            </label>
+                <br>
+                <label for="texto">Informe o Texto!</label>
+                <br>
+                    <textarea id="texto" rows="10" cols="1" style="width: 250px; height: 100px;"></textarea>
+                <br>
+
+            <input type="button" onclick="xmlLeitura()" value="Carregar" name="carregar">
+            
+            <input type="button" id="salvar" onclick="xmlGravar()" value="Salvar Informaçao">
+        </form>
+    </div>
+     <span id ="situacao">situação concluida
+    <script type="text/javascript" src="js/xmlconect.js"></script>
+</body>
+</html>
